@@ -1,0 +1,40 @@
+Proyecto: Ruta Óptima con Dijkstra
+
+JUAN JOSE GOMEZ OVIEDO - 2226413
+JUAN DAVID CUERO REINA - 2226402
+
+Descripción:
+
+Con el fin de encontrar rutas óptimas en la toma de decisiones de un problema con variabilidad en sus costos de operación, se implementó el algoritmo de Dijkstra. La finalidad de este proyecto es abaratar estos costos mediante el uso de grafos que representen rutas de decisiones en cada uno de los nodos agregados por el usuario.
+
+Objetivos:
+
+   1. Implementar una estructura de datos para representar un grafo  que permita modelar distintas rutas con sus respectivos costos.
+
+   2. Desarrollar el algoritmo de Dijkstra para encontrar el camino más corto entre dos nodos específicos del grafo.
+
+Metodología:
+
+   1. Modelado del Grafo:
+
+    Cada nodo representa un punto de decisión.
+    Cada arista entre nodos tiene un peso que representa el costo de operación entre esos puntos.
+   
+   2. Implementación del Algoritmo de Dijkstra:
+
+    Utilización de una estructura de datos eficiente para representar el grafo.
+    Implementación de una cola de prioridad para seleccionar el nodo con la menor distancia acumulada en cada paso.
+    Actualización iterativa de las distancias a los vecinos del nodo actual hasta encontrar el camino más corto al nodo de destino.
+
+    3. Interfaz de Usuario:
+
+    Permitir a los usuarios agregar nodos y aristas al grafo, especificando los costos asociados a cada arista.
+    Visualización de nodos y del camino óptimo calculado.
+
+Especificaciones Técnicas:
+
+    Lenguaje de Programación: Python 3 o superior
+
+    Bibliotecas:
+
+        heapq: Para la implementación de la cola de prioridad en el algoritmo de Dijkstra.

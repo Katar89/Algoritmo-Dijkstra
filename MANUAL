@@ -1,0 +1,53 @@
+---------------------------------------------------
+
+Ejecutable Python para problemas generales con grafos.
+
+---------------------------------------------------
+IMPORTANTE
+
+Este ejecutable contiene la libreria python "heapq"
+la cual no requiere de una instalacion aparte.
+---------------------------------------------------
+
+CONFIGURACION Y MODO DE USO
+
+El usuario podra configurar los parametros del grafo en el 
+archivo fuente "source_optimal_route.py", se debera ubicar
+en la funcion demarcada "main()", donde el comando de 
+añadido de aristas es:
+
+    grafo.agregar_arista('Origen', 'Destino', Peso)
+
+El usuario podra agregar y eliminar cuantas conexiones entre
+los diferentes nodos necesite.
+
+Ejemplo 1:
+
+    grafo.agregar_arista('A', 'B', 1)  # 1 hora para completar la tarea de A a B
+    grafo.agregar_arista('A', 'C', 3)  # 3 horas para completar la tarea de A a C
+
+Ejemplo 2: 
+
+    grafo.agregar_arista('A', 'B', 2000)  # 2000 dolares de coste entre A y B
+    grafo.agregar_arista('A', 'C', 4000)  # 4000 dolares de coste entre A y C
+
+Ejemplo 3: 
+
+    grafo.agregar_arista('A', 'B', 5)  # 5 kilómetros entre A y B
+    grafo.agregar_arista('A', 'C', 10) # 10 kilómetros entre A y C
+
+Ejemplo 4:
+
+    grafo.agregar_arista('A', 'B', 0.2)  # 20% de riesgo entre A y B
+    grafo.agregar_arista('A', 'C', 0.5)  # 50% de riesgo entre A y C
+
+A su vez, se podra personalizar el nodo de inicio con respecto del nodo de finalizacion con el siguiente comando:
+
+    inicio = 'A'  # NODO DE INICIO
+    fin = 'D'     # NODO DE FINALIZACION 
+
+
+
+EJECUTAR DESDE ESCRITORIO O EN EDITOR DE CODIGO
+OUTPUTS EN CMD O TERMINAL RESPECTIVAMENTE
+---------------------------------------------------------------------
